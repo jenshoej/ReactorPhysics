@@ -2,13 +2,13 @@
 <model>
   <materials>
     <cross_sections>/root/jeff-3.3-hdf5/cross_sections.xml</cross_sections>
-    <material depletable="true" id="745" name="uo2" temperature="1200">
+    <material depletable="true" id="781" name="uo2" temperature="1200">
       <density units="g/cm3" value="10.5"/>
       <nuclide ao="0.04" name="U235"/>
       <nuclide ao="0.96" name="U238"/>
       <nuclide ao="2.0" name="O16"/>
     </material>
-    <material id="746" name="zirconium" temperature="900">
+    <material id="782" name="zirconium" temperature="900">
       <density units="g/cm3" value="6.6"/>
       <nuclide ao="0.5145" name="Zr90"/>
       <nuclide ao="0.1122" name="Zr91"/>
@@ -16,29 +16,29 @@
       <nuclide ao="0.1738" name="Zr94"/>
       <nuclide ao="0.028" name="Zr96"/>
     </material>
-    <material id="747" name="h2o">
-      <density units="g/cm3" value="0.37"/>
+    <material id="783" name="h2o">
+      <density units="g/cm3" value="0.185"/>
       <nuclide ao="2.0" name="H1"/>
       <nuclide ao="1.0" name="O16"/>
       <sab name="c_H_in_H2O"/>
     </material>
   </materials>
   <geometry>
-    <cell id="993" material="745" name="fuel" region="-1737" universe="249"/>
-    <cell id="994" material="void" name="air gap" region="1737 -1738" universe="249"/>
-    <cell id="995" material="746" name="clad" region="1738 -1739" universe="249"/>
-    <cell id="996" material="747" name="moderator" region="1740 -1741 1742 -1743 1739" universe="249"/>
-    <surface coeffs="0.0 0.0 0.41" id="1737" type="z-cylinder"/>
-    <surface coeffs="0.0 0.0 0.42" id="1738" type="z-cylinder"/>
-    <surface coeffs="0.0 0.0 0.45" id="1739" type="z-cylinder"/>
-    <surface boundary="reflective" coeffs="-1.025" id="1740" type="x-plane"/>
-    <surface boundary="reflective" coeffs="1.025" id="1741" type="x-plane"/>
-    <surface boundary="reflective" coeffs="-1.025" id="1742" type="y-plane"/>
-    <surface boundary="reflective" coeffs="1.025" id="1743" type="y-plane"/>
+    <cell id="1041" material="781" name="fuel" region="-1821" universe="261"/>
+    <cell id="1042" material="void" name="air gap" region="1821 -1822" universe="261"/>
+    <cell id="1043" material="782" name="clad" region="1822 -1823" universe="261"/>
+    <cell id="1044" material="783" name="moderator" region="1824 -1825 1826 -1827 1823" universe="261"/>
+    <surface coeffs="0.0 0.0 0.41" id="1821" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.42" id="1822" type="z-cylinder"/>
+    <surface coeffs="0.0 0.0 0.45" id="1823" type="z-cylinder"/>
+    <surface boundary="reflective" coeffs="-1.475" id="1824" type="x-plane"/>
+    <surface boundary="reflective" coeffs="1.475" id="1825" type="x-plane"/>
+    <surface boundary="reflective" coeffs="-1.475" id="1826" type="y-plane"/>
+    <surface boundary="reflective" coeffs="1.475" id="1827" type="y-plane"/>
   </geometry>
   <settings>
     <run_mode>eigenvalue</run_mode>
-    <particles>500</particles>
+    <particles>1000</particles>
     <batches>100</batches>
     <inactive>10</inactive>
     <source particle="neutron" strength="1.0" type="independent">

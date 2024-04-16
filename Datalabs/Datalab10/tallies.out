@@ -1,0 +1,24 @@
+ ============================>     TALLY 1     <============================
+
+ Cell 337
+   Incoming Energy [0, 0.5170399957287)
+     Total Material
+       Absorption Rate                      0.568964 +/- 0.00130827
+       Nu-Fission Rate                      1.06816 +/- 0.00245929
+       Flux                                 1.4321 +/- 0.00307634
+   Incoming Energy [0.5170399957287, 20000000)
+     Total Material
+       Absorption Rate                      0.39127 +/- 0.000660694
+       Nu-Fission Rate                      0.323701 +/- 0.000443806
+       Flux                                 11.8991 +/- 0.00965113
+ ============================>     TALLY 2     <============================
+
+ Cell 340
+   Incoming Energy [0, 0.5170399957287)
+     Total Material
+       Absorption Rate                      0.0317848 +/- 7.11912e-05
+       Flux                                 3.04894 +/- 0.00597667
+   Incoming Energy [0.5170399957287, 20000000)
+     Total Material
+       Absorption Rate                      0.00622701 +/- 1.27916e-05
+       Flux                                 21.0562 +/- 0.0149143
