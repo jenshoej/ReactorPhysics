@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plots>
+  <!--Fuelcell-->
+  <plot basis="xy" color_by="cell" id="36" name="Fuelcell" type="slice">
+    <pixels>400 400</pixels>
+    <origin>6 6 0</origin>
+    <width>0.0 0.0</width>
+    <color id="1" rgb="255 0 0"/>
+    <color id="5" rgb="0 0 0"/>
+    <color id="6" rgb="0 0 255"/>
+  </plot>
+</plots>
