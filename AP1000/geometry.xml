@@ -1,51 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <geometry>
-  <cell id="90" material="1" region="-245" universe="23"/>
-  <cell id="91" material="void" region="245 -247" universe="23"/>
-  <cell id="92" material="3" region="247 -248" universe="23"/>
-  <cell id="93" material="5" region="248 241 -242 243 -244" universe="23"/>
-  <cell fill="26" id="97" region="265 -266 267 -268" universe="27"/>
-  <cell id="98" material="5" region="269 -270 271 -272 ~(273 -274 275 -276)" universe="27"/>
-  <lattice id="26">
+  <cell id="38" material="1" region="-160" universe="17"/>
+  <cell id="39" material="void" region="160 -161" universe="17"/>
+  <cell id="40" material="3" region="161 -162" universe="17"/>
+  <cell id="41" material="5" region="162 156 -157 158 -159" universe="17"/>
+  <cell id="42" material="1" region="-171" universe="18"/>
+  <cell id="43" material="2" region="171 -172" universe="18"/>
+  <cell id="44" material="void" region="172 -173" universe="18"/>
+  <cell id="45" material="3" region="161 -162" universe="18"/>
+  <cell id="46" material="5" region="162 156 -157 158 -159" universe="18"/>
+  <cell fill="19" id="47" region="179 -180 181 -182" universe="20"/>
+  <cell id="48" material="5" region="183 -184 185 -186 ~(187 -188 189 -190)" universe="20"/>
+  <lattice id="19">
     <pitch>1.12 1.12</pitch>
     <dimension>17 17</dimension>
     <lower_left>0 0</lower_left>
     <universes>
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
-23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 </universes>
+18 18 17 17 17 17 17 17 17 17 17 17 17 17 17 18 18 
+18 17 17 17 17 18 17 17 18 17 17 18 17 17 17 17 18 
+17 17 17 17 18 17 17 18 17 18 17 17 18 17 17 17 17 
+17 17 17 17 18 17 17 17 17 17 17 17 18 17 17 17 17 
+17 17 18 18 17 18 17 17 18 17 17 18 17 18 18 17 17 
+17 18 17 17 18 17 17 18 17 18 17 17 18 17 17 18 17 
+17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 
+17 17 18 17 17 18 17 17 18 17 17 18 17 17 18 17 17 
+17 18 17 17 18 17 17 18 17 18 17 17 18 17 17 18 17 
+17 17 18 17 17 18 17 17 18 17 17 18 17 17 18 17 17 
+17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 
+17 18 17 17 18 17 17 18 17 18 17 17 18 17 17 18 17 
+17 17 18 18 17 18 17 17 18 17 17 18 17 18 18 17 17 
+17 17 17 17 18 17 17 17 17 17 17 17 18 17 17 17 17 
+17 17 17 17 18 17 17 18 17 18 17 17 18 17 17 17 17 
+18 17 17 17 17 18 17 17 18 17 17 18 17 17 17 17 18 
+18 18 17 17 17 17 17 17 17 17 17 17 17 17 17 18 18 </universes>
   </lattice>
-  <surface coeffs="-0.56" id="241" name="minimum x" type="x-plane"/>
-  <surface coeffs="0.56" id="242" name="maximum x" type="x-plane"/>
-  <surface coeffs="-0.56" id="243" name="minimum y" type="y-plane"/>
-  <surface coeffs="0.56" id="244" name="maximum y" type="y-plane"/>
-  <surface coeffs="0.0 0.0 0.409595" id="245" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 0.41783" id="247" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 0.47498" id="248" type="z-cylinder"/>
-  <surface coeffs="0" id="265" type="x-plane"/>
-  <surface coeffs="19.040000000000003" id="266" type="x-plane"/>
-  <surface coeffs="0" id="267" type="y-plane"/>
-  <surface coeffs="19.040000000000003" id="268" type="y-plane"/>
-  <surface boundary="reflective" coeffs="-3.12" id="269" type="x-plane"/>
-  <surface boundary="reflective" coeffs="22.160000000000004" id="270" type="x-plane"/>
-  <surface boundary="reflective" coeffs="-3.12" id="271" type="y-plane"/>
-  <surface boundary="reflective" coeffs="22.160000000000004" id="272" type="y-plane"/>
-  <surface coeffs="0.0" id="273" name="minimum x" type="x-plane"/>
-  <surface coeffs="19.040000000000003" id="274" name="maximum x" type="x-plane"/>
-  <surface coeffs="0.0" id="275" name="minimum y" type="y-plane"/>
-  <surface coeffs="19.040000000000003" id="276" name="maximum y" type="y-plane"/>
+  <surface coeffs="-0.56" id="156" name="minimum x" type="x-plane"/>
+  <surface coeffs="0.56" id="157" name="maximum x" type="x-plane"/>
+  <surface coeffs="-0.56" id="158" name="minimum y" type="y-plane"/>
+  <surface coeffs="0.56" id="159" name="maximum y" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.409595" id="160" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.41783" id="161" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.47498" id="162" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.409595" id="171" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.412155" id="172" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.41783" id="173" type="z-cylinder"/>
+  <surface coeffs="0" id="179" type="x-plane"/>
+  <surface coeffs="19.040000000000003" id="180" type="x-plane"/>
+  <surface coeffs="0" id="181" type="y-plane"/>
+  <surface coeffs="19.040000000000003" id="182" type="y-plane"/>
+  <surface boundary="reflective" coeffs="-3.12" id="183" type="x-plane"/>
+  <surface boundary="reflective" coeffs="22.160000000000004" id="184" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-3.12" id="185" type="y-plane"/>
+  <surface boundary="reflective" coeffs="22.160000000000004" id="186" type="y-plane"/>
+  <surface coeffs="0.0" id="187" name="minimum x" type="x-plane"/>
+  <surface coeffs="19.040000000000003" id="188" name="maximum x" type="x-plane"/>
+  <surface coeffs="0.0" id="189" name="minimum y" type="y-plane"/>
+  <surface coeffs="19.040000000000003" id="190" name="maximum y" type="y-plane"/>
 </geometry>
