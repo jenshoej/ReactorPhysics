@@ -1,26 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <geometry>
-  <cell id="1" material="1" region="-361" universe="130"/>
-  <cell id="3" material="5" region="362 -363" universe="130"/>
-  <cell id="4" material="6" region="363 357 -358 359 -360" universe="130"/>
-  <cell fill="131" id="148" universe="132"/>
-  <cell fill="132" id="149" region="364 -365 366 -367" universe="133"/>
-  <lattice id="131">
+  <cell id="90" material="1" region="-245" universe="23"/>
+  <cell id="91" material="void" region="245 -247" universe="23"/>
+  <cell id="92" material="3" region="247 -248" universe="23"/>
+  <cell id="93" material="5" region="248 241 -242 243 -244" universe="23"/>
+  <cell fill="26" id="97" region="265 -266 267 -268" universe="27"/>
+  <cell id="98" material="5" region="269 -270 271 -272 ~(273 -274 275 -276)" universe="27"/>
+  <lattice id="26">
     <pitch>1.12 1.12</pitch>
-    <dimension>1 1</dimension>
-    <lower_left>-1.12 -1.12</lower_left>
+    <dimension>17 17</dimension>
+    <lower_left>0 0</lower_left>
     <universes>
-130 </universes>
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 </universes>
   </lattice>
-  <surface coeffs="-0.56" id="357" name="minimum x" type="x-plane"/>
-  <surface coeffs="0.56" id="358" name="maximum x" type="x-plane"/>
-  <surface coeffs="-0.56" id="359" name="minimum y" type="y-plane"/>
-  <surface coeffs="0.56" id="360" name="maximum y" type="y-plane"/>
-  <surface coeffs="0.0 0.0 0.412155" id="361" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 0.43283" id="362" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 0.47498" id="363" type="z-cylinder"/>
-  <surface boundary="reflective" coeffs="-1.12" id="364" type="x-plane"/>
-  <surface boundary="reflective" coeffs="0.0" id="365" type="x-plane"/>
-  <surface boundary="reflective" coeffs="-1.12" id="366" type="y-plane"/>
-  <surface boundary="reflective" coeffs="0.0" id="367" type="y-plane"/>
+  <surface coeffs="-0.56" id="241" name="minimum x" type="x-plane"/>
+  <surface coeffs="0.56" id="242" name="maximum x" type="x-plane"/>
+  <surface coeffs="-0.56" id="243" name="minimum y" type="y-plane"/>
+  <surface coeffs="0.56" id="244" name="maximum y" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.409595" id="245" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.41783" id="247" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.47498" id="248" type="z-cylinder"/>
+  <surface coeffs="0" id="265" type="x-plane"/>
+  <surface coeffs="19.040000000000003" id="266" type="x-plane"/>
+  <surface coeffs="0" id="267" type="y-plane"/>
+  <surface coeffs="19.040000000000003" id="268" type="y-plane"/>
+  <surface boundary="reflective" coeffs="-3.12" id="269" type="x-plane"/>
+  <surface boundary="reflective" coeffs="22.160000000000004" id="270" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-3.12" id="271" type="y-plane"/>
+  <surface boundary="reflective" coeffs="22.160000000000004" id="272" type="y-plane"/>
+  <surface coeffs="0.0" id="273" name="minimum x" type="x-plane"/>
+  <surface coeffs="19.040000000000003" id="274" name="maximum x" type="x-plane"/>
+  <surface coeffs="0.0" id="275" name="minimum y" type="y-plane"/>
+  <surface coeffs="19.040000000000003" id="276" name="maximum y" type="y-plane"/>
 </geometry>
